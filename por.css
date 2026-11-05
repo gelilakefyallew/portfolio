@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1e293b;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 40px; /* Adds breathing room on the left and right edges */
+    background-color: rgba(12, 29, 54, 0.92);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav a:hover{
+    background-color: #0f172a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logo p, .logo code{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 500px;
+    
+}
+.logo p{
+    color: white;
+    margin-left: 20px;
+}
+.logo code{
+    color: darkorchid;
+}
+.icons{
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+   
+    
+}
+.icons button{
+    
+    background-color: white;
+     font-size: 30px;
+}
+.links{
+    display: flex;
+    gap: 40px;
+    display: flex;
+    
+}
+.icons i{
+    color: black;
+}
+.icons i:hover {
+    color: rgb(154, 110, 176);
+}
+.links a{
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+
+
+.white-name{
+      
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.pur-name{
+     
+    color: darkorchid;
+    font-weight: 500;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.4);
+}
+.big-pur{
+    font-size: 90px;
+    color: darkorchid;
+    font-family: fantasy;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+}
+.big-white{
+    font-size:60px ;
+    color:white;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.4);
+}
+.exp-p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color:#0f172a;
+    margin-bottom: 100px;
+display: flex;
+    gap: 30px;
+}
+header img{
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 40px;
+    
+}
+.main{
+    
+    display:flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.sect h1 ,.sect p{
+    color:white;
+}
+.sect{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+
+.skills-container {
+   display: flex !important;
+   flex-direction: row !important;
+   width: 100% !important;
+    gap: 20px;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.skills-container h3{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+.next{
+    width: 500px;
+}
+
+
+
+.sec {
+    flex: 1;
+    
+    min-width: 200px;
+    margin: 0;
+    padding: 20px;
+    border-radius: 12px;
+      transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+ 
+    padding: 20px;
+    border-radius: 16px;
+    border:black solid 1px;
+    background-color: #18212f;
+}
+
+main ul{
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.sect img{
+    width: 250px;
+    float: left;
+    margin: 0 40px 0 80px;
+    border-radius: 10px; 
+}
+span{
+    color: darkorchid;
+}
+main li{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+.sect p{
+ height: 420px;
+ width: 1000px;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ line-height: 30xpx;
+ font-size: 23px;
+}
+section h1{
+    margin-top: 100px;
+}
+
+
+
+main h1{
+    color: darkorchid;
+    margin-bottom: 30px;
+}
+.sec li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.margin{
+    margin-bottom: 40px;
+}
+.next{
+    margin-bottom: 60px;
+    height: 200px;
+}
+.next p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.next li{
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+.container{
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+.sec:hover {
+    border-color: black 2px;
+   transform: translateY(-8px) scale(1.03);
+   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+.projects-section {
+    margin: 50px 80px;
+}
+
+.projects-section h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.project-grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: rgb(69, 80, 92);
+    padding: 25px;
+    border-radius: 16px;
+    width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.project-card:hover{
+     transform: translateY(-8px) scale(1.03);
+   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+    color: darkorchid;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color:white;
+    margin-bottom: 15px;
+}
+
+.tech-stack {
+    font-size: 14px;
+    color: #666;
+}
+
+.project-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.project-links a {
+    color: darkorchid;
+    text-decoration: none;
+    font-weight: bold;
+}
+.project-links button{
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.project-links a:hover {
+    text-decoration: underline;
+}
+.contact h1{
+    color: white;
+    margin-bottom: 80px;
+    margin-left: 80px;
+}
+.contact ul{
+    list-style-type: none;
+    
+    line-height: 45px;
+}
+.contact a{
+    color: white;
+   text-decoration: none;
+   margin-left: 80px;
+   font-size: 20px;
+}
+.contact a:hover{
+    color: darkorchid ;
+    text-decoration: underline;
+}
+.contact li{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 16px;
+    font-size: 1.1rem;
+}
+.contact i{
+    font-size: 1.8rem;
+    min-width: 32px;
+    text-align: center;
+    color: white;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.contact li:hover i {
+    transform: scale(1.1);
+}
+
+
+.contact{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+   
+
+}
+footer h1{
+    color:white;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+    line-height: 30px;
+
+}
+footer p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+@media (max-width: 800px) {
+    .next{
+        flex: none;
+        width: 300px;
+    }
+    .sect p{
+        width: 700px;
+    }
+
+}
